@@ -67,7 +67,8 @@ def veri_güncelleme():
             print("     {}".format(y))
             break
         else:
-            return hata()
+            hata()
+            return
     
 
 def veri_silme():
